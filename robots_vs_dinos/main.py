@@ -20,4 +20,9 @@ fleet = Fleet()
 fleet.add_robo(robo1)
 fleet.add_robo(robo2)
 fleet.add_robo(robo3)
+#Adding Dino's to a herd
+herd = Herd()
+herd.add_dino(dino1)
+herd.add_dino(dino2)
+herd.add_dino(dino3)
 

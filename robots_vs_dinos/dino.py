@@ -1,7 +1,9 @@
+import random
+
 class Dino:
-    def __init__(self, name, attack_power):
+    def __init__(self, name):
         self.name = ""
-        self.attack_power = [25, 30, 35]
+        self.attack_power = random.choice([25, 30, 35])
         self.health = 100
 
     def attack_robot(self, enemy_robot):
