@@ -6,3 +6,4 @@ class Dino:
 
     def attack_robot(self, enemy_robot):
         self.robot.health -= self.attack_power
+        #setting dino to attack robot and subtract the attack power from robots health
