@@ -13,7 +13,8 @@ class Battlefield:
     def battle(self):
         #for robots in self.robos:
         for dino in self.dinos:
-            if(dino.health > 0)
+            if(dino.health > 0):
+                print()
 
     #Attack 
     def attack(self, robo, dino):

@@ -3,4 +3,4 @@ class Herd:
         self.dino_herd = []
 
     def add_dino(self, dino):
-        self.dino_herd.insert(dino)
+        self.dino_herd.insert(0,dino)

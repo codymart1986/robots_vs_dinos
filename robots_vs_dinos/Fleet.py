@@ -4,4 +4,4 @@ class Fleet:
         self.robo_fleet = []
 
     def add_robo(self,robo):
-        self.robo_fleet.insert(robo)
+        self.robo_fleet.insert(0,robo)
